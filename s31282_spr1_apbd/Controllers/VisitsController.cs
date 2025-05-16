@@ -6,7 +6,7 @@ using s31282_spr1_apbd.Services;
 namespace s31282_spr1_apbd.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class VisitsController : ControllerBase
     {
         private readonly IVisitService _visitService;
