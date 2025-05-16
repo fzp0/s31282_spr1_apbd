@@ -1,0 +1,6 @@
+@s31282_spr1_apbd_HostAddress = http://localhost:5175
+
+GET {{s31282_spr1_apbd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
